@@ -23,7 +23,7 @@ func main() {
 	c := fargo.NewConn(eurekaUrl)
 
 	i := fargo.Instance{
-		HostName:         "i-6543",
+		HostName:         "http://127.0.0.10:3001",
 		Port:             3001,
 		App:              "BACKING_FULFILLMENT",
 		IPAddr:           "127.0.0.10",
