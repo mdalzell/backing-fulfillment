@@ -24,7 +24,7 @@ func main() {
 
 	i := fargo.Instance{
 		HostName:         "i-6543",
-		Port:             9090,
+		Port:             3001,
 		App:              "BACKING_FULFILLMENT",
 		IPAddr:           "127.0.0.10",
 		VipAddress:       "127.0.0.10",
